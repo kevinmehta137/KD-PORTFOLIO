@@ -1,22 +1,30 @@
-.logo{
-    width: 8rem;
-    height: 8rem;
+  .logo{
+      width: 8rem;
+      height: 8rem;
+    }
+    .logoimg{
+      background-image: url(./image/Logo.png);
+      background-repeat: no-repeat;
+    }
+    .navbar-inverse{
+        background-image: none;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    .navbar-inverse .navbar-nav>li>a{
+      background: -webkit-linear-gradient(#e61919cc, #6f13b5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+      background: -webkit-linear-gradient(#e61919cc, #6f13b5);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  .navbaerback{
+    background: #ffffff00;
   }
-  .logoimg{
-    background-image: url(./image/Logo.png);
-    background-repeat: no-repeat;
-  }
-  .navbar-inverse{
-      background-image: none;
-      background-color: transparent;
-      border-color: transparent;
-  }
-  .navbar-inverse .navbar-nav>li>a{
-    background: -webkit-linear-gradient(#e61919cc, #6f13b5);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  }
-  .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
-    color: white;
+  .navbaerback:hover{
+    background: #ffffff;
   }
  
