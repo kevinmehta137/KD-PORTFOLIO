@@ -1,21 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/navbar/navbar';
-import Containers from './components/container/container';
-import Portfolio from './components/Portfolio/portfolio';
-class App extends Component {
-  render() {
-    return (
-      <div>
+import './App.css'; 
+import { BrowserRouter as Router, Route} from 'react-router-dom'
+//import { connect } from 'react-redux';
+import NAV from './components/navbar/navbar';
+import Home from './home/home';
+import Portfolio from './Portfolio/portfolio';
+import Intro from './intro/intro';
+
+class App extends React.Component {
+  render(){
+      return(
+      <Router>
         <div>
-            <Navbar />
-            <Containers></Containers>
-            <Portfolio></Portfolio>
+            <NAV />
+            <Route exact path='/' render={()=> <Home />}> </Route>  
+            <Route exact path='/portfolio' render={() => <Portfolio />}></Route>
+      <Route exact path='/intro' render={() => <Intro />}></Route>
         </div>
-      </div>
+      </Router>
     );
-  }
+}  
 }
+
 
 export default App;

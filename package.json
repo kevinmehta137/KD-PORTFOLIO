@@ -3,14 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@version/react-router-v3": "^1.0.0",
+    "anime": "^0.1.2",
+    "animejs": "^3.0.1",
+    "bootstrap": "^4.3.1",
+    "csx": "^9.0.0",
+    "cxs": "^6.2.0",
+    "cxs-components": "^3.0.3",
+    "ekko-lightbox": "^5.3.0",
+    "jquery": "^3.3.1",
+    "particlesjs": "^2.2.3",
     "react": "^16.7.0",
     "react-body-classname": "^1.2.0",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.2"
+    "react-fontawesome": "^1.6.1",
+    "react-motion": "^0.5.2",
+    "react-particles-js": "^2.5.1",
+    "react-photo-gallery": "^6.3.0",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.2",
+    "react-scrollchor": "^6.0.0",
+    "react-text-loop": "^2.0.1",
+    "reactstrap": "^8.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start ",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -23,5 +42,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.3",
+    "babel-eslint": "^9.0.0"
+  }
 }

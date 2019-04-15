@@ -1,11 +1,10 @@
-.jumbotron{
-    margin-top: 35rem;
-    background-color: #eeeeeeb8;
-}
 body.containbackground{
     background: url('./image/Background.png') no-repeat center fixed;
     background-size: cover ;
     height: 5rem;
+}
+.jumbotron{
+  background-color:#ff000000;
 }   
 .jumbotron h1{
 
@@ -22,6 +21,15 @@ body.containbackground{
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
+  }
+  .contain{
+    margin-top: 35rem;
+
+  }
+  .context{
+    background-color: #efefefcf;
+    padding-top: 4rem;
+    height: 20rem;
   }
   
   @keyframes bounce {
