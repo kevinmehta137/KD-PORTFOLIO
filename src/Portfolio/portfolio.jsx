@@ -8,15 +8,36 @@ import Back from "./images/back.png";
 import Back1 from "./images/project1.png";
 import Back2 from "./images/project2.png";
 import Back3 from "./images/project3.png";
-
+import $ from "jquery";
 class portfolio extends React.Component{
   render(){
+              //navbar solid color code
+              $(document).ready(function(){       
+                var scroll_start = 0;
+                var startchange = $('#startchange');
+                var offset = startchange.offset();
+                 if (startchange.length){
+                $(document).scroll(function() { 
+                   scroll_start = $(this).scrollTop();
+                   if(scroll_start > offset.top) {
+                       $(".Navbar-default").css('background-color', 'white');
+                      $(".icon-bar").css('background-color', 'black');
+                    } else {
+                       $('.Navbar-default').css('background-color', 'transparent');
+                       $(".icon-bar").css('background-color', '#fff');
+                    }
+                });
+                 }
+             });
+
+             //************************************** */
+
     return(
               <div className="sr jumbotron-fluid" id='Portfol'>
               <div className='parallax container-fluid'>
                 <div class="photo-gallery text-center"  >
                   <div class="container" >
-                        <div class="row photos">
+                        <div id="startchange" class="row photos">
                             <div class="col-sm-6 col-md-4 col-lg-3 item">
                                 <div class="hovereffect">
                                   <a href="./images/back.png" data-lightbox="photos"><img class="img-fluid imgsize" src={Back} /></a>

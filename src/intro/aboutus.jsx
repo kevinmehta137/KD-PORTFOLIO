@@ -103,6 +103,27 @@ class aboutus extends React.Component{
             $('.ml1 .letters').each(function(){
                 $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span className='letter'>$&</span>"));
               });
+
+              //navbar solid color code
+              $(document).ready(function(){       
+                var scroll_start = 0;
+                var startchange = $('#startchange');
+                var offset = startchange.offset();
+                 if (startchange.length){
+                $(document).scroll(function() { 
+                   scroll_start = $(this).scrollTop();
+                   if(scroll_start > offset.top) {
+                       $(".Navbar-default").css('background-color', 'white');
+                      $(".icon-bar").css('background-color', 'black');
+                    } else {
+                       $('.Navbar-default').css('background-color', 'transparent');
+                       $(".icon-bar").css('background-color', '#fff');
+                    }
+                });
+                 }
+             });
+
+             //************************************** */
               
               anime.timeline({loop: true})
                 .add({
@@ -139,9 +160,9 @@ class aboutus extends React.Component{
                 <BodyClassName className='containbackground1'>
                 <div>
                 <div className="jumbotron-fluid">
-                <div class="container-fluid">
+                <div id="startchange" class="container-fluid">
                     <div className="row contain">
-                    <div className="col-md context ">
+                    <div  className="col-md context ">
                                     <Section>
                                         <Example >
                                             <TextLoop springConfig={{ stiffness: 70, damping: 31 }} adjustingSpeed={500} >
