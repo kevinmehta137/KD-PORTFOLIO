@@ -3,9 +3,7 @@ body.backimg{
     background-size: cover ;
     height: 5rem;
 }  
-/* .jumbotron-fluid1{
-  height: 97rem;
-} */
+
 .infocontain{
   margin-top: 20rem;
 }
@@ -36,9 +34,13 @@ body.backimg{
   .one {
     background-image: url('./Asset3.png');
   }
-.con{
+ .con{
  width: fit-content;
 }
+.contianer-fluid{
+  display: flex;
+
+} 
 
   .text_style{
     font-family: 'Pacifico', cursive;
@@ -151,13 +153,19 @@ body.backimg{
   }
   .Arrangediv4{
     position: relative;
-    width: 60%;
+    width: 50%;
     float: left;
   }
   .Arrangediv5{
     position: relative;
-    width: 30%;
+    padding-top: 10rem;
+    padding-left: 10rem;
+    width: 50%;
+
     float: left;
+  }
+  .imgarr{
+    padding-bottom: 2rem;
   }
 
 

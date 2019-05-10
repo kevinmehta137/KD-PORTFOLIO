@@ -1,18 +1,8 @@
-body.containbackground{
-    background: url('./image/Background.png') no-repeat center fixed;
+body.containbackground1 {
+    background: url('./introback.png') no-repeat center fixed;
     background-size: cover ;
     height: 5rem;
 }
-/* .jumbotron1{
-  background-color:#ff000000;
-}   
-.jumbotron h1{
-
-    font-size: 72px;
-    background: -webkit-linear-gradient(#e61919cc, #6f13b5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
 .arrow {
     text-align: center;
     margin: 8% 0;
@@ -31,6 +21,11 @@ body.containbackground{
     padding-top: 4rem;
     height: 20rem;
   }
+
+  /* .container1{
+    width: fit-content;
+    height: fit-content;
+  } */
   
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
@@ -43,9 +38,33 @@ body.containbackground{
       transform: translateY(-15px);
     }
   }
+  svg:not(:root) {
+    overflow: visible;
 
-  .S{
-    color: white; 
+
+} 
+  .imgsize1{
+    width: 100px;
+    height: auto;
+    padding-right: 20px;
+  }
+
+  .S1{
+    color: rgb(0, 0, 0); 
     font-size: 53px;
     text-decoration: none;
+  }
+
+
+  
+  .text_style{
+    font-family: 'Pacifico', cursive;
+    font-weight: 10;
+    font-size:40px;
+
+  }
+  .text_style1{
+    font-family: 'Righteous', cursive;
+    font-weight: 10;
+    font-size:40px;
   }

@@ -139,12 +139,12 @@ class intro extends React.Component{
         <BarGroup d={d} barHeight={barHeight} />
          </g>);     
         return(
-            <BodyClassName className="backimg" npm>
-            <div>
+            <BodyClassName className="backimg">
+            <div className="jumbotron-fluid">
                 
-                    <Container className="arrange">
-                        <Row className="context1">
-                            <Col className="Arrangediv5">
+                    <div className="container-fluid containersize ">
+                        <div className="row context1">
+                            <div className="col-md-8 Arrangediv5">
                                     <Section>
                                         <Example >
                                             <TextLoop springConfig={{ stiffness: 70, damping: 31 }} adjustingSpeed={500} >
@@ -156,39 +156,39 @@ class intro extends React.Component{
                                             <p className="text_style1 ">Web Devloper.</p>
                                         </Example>
                                     </Section>
-                                </Col>
+                                </div>
                            
-                            <Col className="Arrangediv4">
-                            <img src={Profile} className="img_size"></img>
-                            </Col>
-                        </Row>
-                    <Container className="arrow1 bounce1 con">
+                            <div className="col-md-4 Arrangediv4">
+                            <img src={Profile} className="imgarr img_size"></img>
+                            </div>
+                        </div>
+                    <div className="arrow1 bounce1 container-fluid">
                         <p>You want to Know me Click Here</p>
                         <Link className="S1 fas fa-angle-down" to=""> </Link>
-                    </Container>
-                    </Container>
-                    
+                    </div>
                     <Introanimation  />
+                    </div>
+                    
                     
               
                 <div className=" infocontain ">
-                <Container className="overDrop">
-                   <Row>
-                    <Col className="text-center Arrangediv1 h1-sm">
+                <div className="container-fluid overDrop">
+                   <div className="row">
+                    <div className="text-center Arrangediv1 h1-sm col-md-4">
                         <h1>Professional<br/> Summary</h1>
-                    </Col>
-                    <Col className="text-left Arrangediv2">
+                    </div>
+                    <div className="text-left Arrangediv2 col-md-8">
                         <h3>•	Experiences working with HTML5, CSS3, JAVASCRIPT, HEROKU, GIT, GITHUB, MONGO.DB,
                                 MVC, JQUERY, BOOTSTRAP, REACT.JS, NODE.JS, EXPRESS.JS, ANGULAR.<br/>
                             •	Experiences working with Adobe Illustrator, Photoshop for web designing and working as a freelancer for designing banners, Visiting cards, Broachers, Etc. </h3>
-                    </Col>
+                    </div>
 
-                   </Row>
-                   <Row >
-                        <Col className="text-center Arrangediv1">
+                   </div>
+                   <div className="row" >
+                        <div className="col-md-4 text-center Arrangediv1">
                             <h1>Skills</h1>
-                        </Col>
-                        <Col className=" text-center  Arrangediv3">
+                        </div>
+                        <div className="col-md-8 text-center  Arrangediv3">
                             <svg width="800" height="300" >
                                 <g className="container1">
                                     <text className="title" x="10" y="30"></text>
@@ -197,14 +197,14 @@ class intro extends React.Component{
                                     </g>
                                 </g>
                             </svg>
-                        </Col>
-                   </Row>
+                        </div>
+                   </div>
 
-                   <Row>
-                    <Col className="text-center Arrangediv1">
+                   <div className="row">
+                    <div className="col-md-4 text-center Arrangediv1">
                         <h1>Experience</h1>
-                    </Col>
-                    <Col className="text-left Arrangediv2">
+                    </div>
+                    <div className="col-md-8 text-left Arrangediv2">
                         <h3>•	Manager in Training (Current)<br/>
                                 Fry’s Electronics. Anaheim. CA.<br/>
                                 <p>
@@ -241,12 +241,12 @@ class intro extends React.Component{
                                     o	Build Customer Relationship to Upgrade the software from DOS based to .Net based.<br/>
                                 </p>
                         </h3>
-                    </Col>
+                    </div>
 
-                   </Row>
+                   </div>
                
                 <div className="overDrop2">
-                        <Row className="text-center reumetext">
+                        <div className="row text-center reumetext">
                                     <h1 className="ml1">
                                         <span className="text-wrapper">
                                             <span className="line line1"></span>
@@ -259,9 +259,9 @@ class intro extends React.Component{
                                                 <Button variant="outline-secondary">Resume</Button>
                                         </ButtonToolbar>
                                     </div>
-                        </Row>
+                        </div>
                 </div>
-                </Container>
+                </div>
                 </div>
                 <script src="anime.min.js"></script>
             </div>

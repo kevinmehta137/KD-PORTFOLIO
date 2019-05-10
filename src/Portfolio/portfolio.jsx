@@ -22,16 +22,16 @@ class portfolio extends React.Component{
                                   <a href="./images/back.png" data-lightbox="photos"><img class="img-fluid imgsize" src={Back} /></a>
                                   <div class="overlay">
                                     <p>
-                                        <a href="#">
+                                        <a href="www.linkedin.com/in/kevin-mehta-34b96680">
                                           <i class="fab fa-linkedin"></i>
                                         </a>
-                                        <a href="#">
+                                        <a href="https://github.com/kevinmehta137?tab=repositories">
                                         <i class="fab fa-github"></i>
                                         </a>
                                         <a href="#">
                                           <i class="fab fa-google-plus-square"></i>
                                         </a>
-                                        <a href="#">
+                                        <a href="https://www.facebook.com/kevinmehta137">
                                           <i class="fab fa-facebook"></i>
                                         </a>
                                     </p>
@@ -44,10 +44,10 @@ class portfolio extends React.Component{
                                 <div class="overlay">
                                               <div class="rotate">
                                       <p class="group1">
-                                          <a href="#">
+                                          <a href="www.linkedin.com/in/kevin-mehta-34b96680">
                                               <i class="fab fa-linkedin"></i>
                                           </a>
-                                          <a href="#">
+                                          <a href="https://github.com/kevinmehta137?tab=repositories">
                                               <i class="fab fa-github"></i>
                                           </a>
                                       </p>
@@ -57,7 +57,7 @@ class portfolio extends React.Component{
                                           <a href="#">
                                               <i class="fab fa-google-plus-square"></i>
                                           </a>
-                                          <a href="#">
+                                          <a href="https://www.facebook.com/kevinmehta137">
                                               <i class="fab fa-facebook"></i>
                                           </a>
                                       </p>
@@ -71,13 +71,13 @@ class portfolio extends React.Component{
                                 <a href="assets/img/loft.jpg" data-lightbox="photos"><img class="img-fluid imgsize" src={Back2} /></a>
                                   <div class="overlay">
                                       <p>
-                                        <a href="#" class="fab fa-linkedin"></a>
+                                        <a href="www.linkedin.com/in/kevin-mehta-34b96680" class="fab fa-linkedin"></a>
                                       </p>
                                       <p>
-                                        <a href="#" class="fab fa-facebook"></a>
+                                        <a href="https://www.facebook.com/kevinmehta137" class="fab fa-facebook"></a>
                                       </p>
                                       <p>
-                                        <a href="#" class="fab fa-github"></a>
+                                        <a href="https://github.com/kevinmehta137?tab=repositories" class="fab fa-github"></a>
                                       </p>
                                       <p>
                                       <a href="#" class="fab fa-google-plus-square"></a>
@@ -90,10 +90,10 @@ class portfolio extends React.Component{
                                 <a href="assets/img/building.jpg" data-lightbox="photos"><img class="img-fluid imgsize" src={Back3} /></a>
                                   <div class="overlay">
                                       <p class="set1">
-                                          <a href="#">
+                                          <a href="www.linkedin.com/in/kevin-mehta-34b96680">
                                               <i class="fab fa-linkedin"></i>
                                           </a>
-                                          <a href="#">
+                                          <a href="https://www.facebook.com/kevinmehta137">
                                               <i class="fab fa-facebook"></i>
                                           </a>
                                       </p>
@@ -101,7 +101,7 @@ class portfolio extends React.Component{
                                       <hr/>
                                       <hr/>
                                       <p class="set2">
-                                          <a href="#">
+                                          <a href="https://github.com/kevinmehta137?tab=repositories">
                                               <i class="fab fa-github"></i>
                                           </a>
                                           <a href="#">

@@ -26,7 +26,7 @@ class navbar extends React.Component{
                         <NavLink id="port" to='/portfolio'>Portfolio</NavLink>
                       </NavItem>
                       <NavItem eventKey={2} className='navbaerback'>
-                        <NavLink to='/intro'>Introduction</NavLink>
+                        <NavLink to='/aboutus'>Introduction</NavLink>
                       </NavItem>
                     </Nav>
                   </Navbar.Collapse>
