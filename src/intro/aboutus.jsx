@@ -21,6 +21,7 @@ import React1 from "./images/1x/React.png";
 import Redux1 from "./images/1x/Redux.png";
 import Sequelize from "./images/1x/Sequelize.png";
 import Node from "./images/1x/Nodejs.png";
+import Resume from "./images/KevinMehta Resume.docx";
 //******************************/
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 //Font description
@@ -249,7 +250,7 @@ class aboutus extends React.Component{
                                     </h1>
                                     <div className="container3">
                                         <ButtonToolbar >
-                                                <Button variant="outline-secondary">Resume</Button>
+                                                <Button variant="outline-secondary" href={Resume}>Resume</Button>
                                         </ButtonToolbar>
                                     </div>
                         </div>
