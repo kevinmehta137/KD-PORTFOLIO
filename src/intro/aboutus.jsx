@@ -186,9 +186,9 @@ class aboutus extends React.Component{
                      <AnchorLink href="#ProfessionalSummary" class="S1 fas fa-angle-down" > </AnchorLink>
                 </div>
                 <div className=" infocontain ">
-                    <div className="container-fluid ">
+                    <div id="ProfessionalSummary"  className="container-fluid con2">
                     <div className="row">
-                        <div id="ProfessionalSummary" className="text-center h1-sm col-md-4">
+                        <div  className="text-center h1-sm col-md-4">
                             <h1>Professional<br/> Summary</h1>
                         </div>
                         <div className="text-left  col-md-8">

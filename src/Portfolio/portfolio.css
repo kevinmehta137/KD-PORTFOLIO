@@ -6,12 +6,16 @@
 }
 .photo-gallery {
   
-  background-color:#f4f4f6;
+  background-color:#00003a;
   height: 100rem;
 }
 
 .photo-gallery p {
   color:#7d8285;
+}
+
+.con1{
+  background-color: #00003a;
 }
 
 .photo-gallery h2 {
@@ -41,7 +45,7 @@
 
 .photo-gallery .photos {
   padding-bottom:20px;
-  margin-top: 15%; 
+  margin-top: 28%; 
 }
 
 .photo-gallery .item {

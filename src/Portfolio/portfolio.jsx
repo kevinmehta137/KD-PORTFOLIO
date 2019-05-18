@@ -34,7 +34,7 @@ class portfolio extends React.Component{
 
     return(
               <div className="sr jumbotron-fluid" id='Portfol'>
-              <div className='parallax container-fluid'>
+              <div className='parallax container-fluid con1'>
                 <div class="photo-gallery text-center"  >
                   <div class="container" >
                         <div id="startchange" class="row photos">
@@ -49,8 +49,8 @@ class portfolio extends React.Component{
                                         <a href="https://github.com/kevinmehta137?tab=repositories">
                                         <i class="fab fa-github"></i>
                                         </a>
-                                        <a href="#">
-                                          <i class="fab fa-google-plus-square"></i>
+                                        <a href="https://twitter.com/kevinmehta137">
+                                          <i class="fab fa-twitter"></i>
                                         </a>
                                         <a href="https://www.facebook.com/kevinmehta137">
                                           <i class="fab fa-facebook"></i>
@@ -75,8 +75,8 @@ class portfolio extends React.Component{
                                           <hr/>
                                           <hr/>
                                       <p class="group2">
-                                          <a href="#">
-                                              <i class="fab fa-google-plus-square"></i>
+                                        <a href="https://twitter.com/kevinmehta137">
+                                            <i class="fab fa-twitter"></i>
                                           </a>
                                           <a href="https://www.facebook.com/kevinmehta137">
                                               <i class="fab fa-facebook"></i>
@@ -101,7 +101,9 @@ class portfolio extends React.Component{
                                         <a href="https://github.com/kevinmehta137?tab=repositories" class="fab fa-github"></a>
                                       </p>
                                       <p>
-                                      <a href="#" class="fab fa-google-plus-square"></a>
+                                      <a href="https://twitter.com/kevinmehta137">
+                                          <i class="fab fa-twitter"></i>
+                                        </a>
                                       </p>
                                   </div>     
                               </div>  
@@ -125,8 +127,8 @@ class portfolio extends React.Component{
                                           <a href="https://github.com/kevinmehta137?tab=repositories">
                                               <i class="fab fa-github"></i>
                                           </a>
-                                          <a href="#">
-                                              <i class="fab fa-google-plus-square"></i>
+                                          <a href="https://twitter.com/kevinmehta137">
+                                              <i class="fab fa-twitter"></i>
                                           </a>
                                       </p>
                                   </div>
