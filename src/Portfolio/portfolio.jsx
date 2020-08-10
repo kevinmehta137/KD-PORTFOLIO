@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';  
 import './portfolio.css';
 import './portfolio2.css';
@@ -35,51 +38,51 @@ class portfolio extends React.Component{
     return(
               <div className="sr jumbotron-fluid" id='Portfol'>
               <div className='parallax container-fluid con1'>
-                <div class="photo-gallery text-center"  >
-                  <div class="container" >
-                        <div id="startchange" class="row photos">
-                            <div class="col-sm-6 col-md-4 col-lg-3 item">
-                                <div class="hovereffect">
-                                  <a href="./images/back.png" data-lightbox="photos"><img class="img-fluid imgsize" src={Back} /></a>
-                                  <div class="overlay">
+                <div className="photo-gallery text-center"  >
+                  <div className="container" >
+                        <div id="startchange" className="row photos">
+                            <div className="col-sm-6 col-md-4 col-lg-3 item">
+                                <div className="hovereffect">
+                                  <a href="./images/back.png" data-lightbox="photos"><img alt="Backgroudimage" className="img-fluid imgsize" src={Back} /></a>
+                                  <div className="overlay">
                                     <p>
                                         <a href="www.linkedin.com/in/kevin-mehta-34b96680">
-                                          <i class="fab fa-linkedin"></i>
+                                          <i className="fab fa-linkedin"></i>
                                         </a>
                                         <a href="https://github.com/kevinmehta137?tab=repositories">
-                                        <i class="fab fa-github"></i>
+                                        <i className="fab fa-github"></i>
                                         </a>
                                         <a href="https://twitter.com/kevinmehta137">
-                                          <i class="fab fa-twitter"></i>
+                                          <i className="fab fa-twitter"></i>
                                         </a>
                                         <a href="https://www.facebook.com/kevinmehta137">
-                                          <i class="fab fa-facebook"></i>
+                                          <i className="fab fa-facebook"></i>
                                         </a>
                                     </p>
                                 </div>
                                 </div> 
                             </div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item">
-                              <div class="hovereffect2">
-                                <a href="assets/img/building.jpg" data-lightbox="photos"><img class="img-fluid imgsize" src={Back1} /></a>
-                                <div class="overlay">
-                                              <div class="rotate">
-                                      <p class="group1">
+                            <div className="col-sm-6 col-md-4 col-lg-3 item">
+                              <div className="hovereffect2">
+                                <a href="assets/img/building.jpg" data-lightbox="photos"><img className="img-fluid imgsize" src={Back1} /></a>
+                                <div className="overlay">
+                                              <div className="rotate">
+                                      <p className="group1">
                                           <a href="www.linkedin.com/in/kevin-mehta-34b96680">
-                                              <i class="fab fa-linkedin"></i>
+                                              <i className="fab fa-linkedin"></i>
                                           </a>
                                           <a href="https://github.com/kevinmehta137?tab=repositories">
-                                              <i class="fab fa-github"></i>
+                                              <i className="fab fa-github"></i>
                                           </a>
                                       </p>
                                           <hr/>
                                           <hr/>
-                                      <p class="group2">
+                                      <p className="group2">
                                         <a href="https://twitter.com/kevinmehta137">
-                                            <i class="fab fa-twitter"></i>
+                                            <i className="fab fa-twitter"></i>
                                           </a>
                                           <a href="https://www.facebook.com/kevinmehta137">
-                                              <i class="fab fa-facebook"></i>
+                                              <i className="fab fa-facebook"></i>
                                           </a>
                                       </p>
                                   </div>
@@ -87,48 +90,48 @@ class portfolio extends React.Component{
                                 </div>
                               </div>
                             </div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item">
-                              <div class="hovereffect3">
-                                <a href="assets/img/loft.jpg" data-lightbox="photos"><img class="img-fluid imgsize" src={Back2} /></a>
-                                  <div class="overlay">
+                            <div className="col-sm-6 col-md-4 col-lg-3 item">
+                              <div className="hovereffect3">
+                                <a href="assets/img/loft.jpg" data-lightbox="photos"><img className="img-fluid imgsize" src={Back2} /></a>
+                                  <div className="overlay">
                                       <p>
-                                        <a href="www.linkedin.com/in/kevin-mehta-34b96680" class="fab fa-linkedin"></a>
+                                        <a href="www.linkedin.com/in/kevin-mehta-34b96680" className="fab fa-linkedin"></a>
                                       </p>
                                       <p>
-                                        <a href="https://www.facebook.com/kevinmehta137" class="fab fa-facebook"></a>
+                                        <a href="https://www.facebook.com/kevinmehta137" className="fab fa-facebook"></a>
                                       </p>
                                       <p>
-                                        <a href="https://github.com/kevinmehta137?tab=repositories" class="fab fa-github"></a>
+                                        <a href="https://github.com/kevinmehta137?tab=repositories" className="fab fa-github"></a>
                                       </p>
                                       <p>
                                       <a href="https://twitter.com/kevinmehta137">
-                                          <i class="fab fa-twitter"></i>
+                                          <i className="fab fa-twitter"></i>
                                         </a>
                                       </p>
                                   </div>     
                               </div>  
                             </div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item">
-                              <div class="hovereffect4">
-                                <a href="assets/img/building.jpg" data-lightbox="photos"><img class="img-fluid imgsize" src={Back3} /></a>
-                                  <div class="overlay">
-                                      <p class="set1">
+                            <div className="col-sm-6 col-md-4 col-lg-3 item">
+                              <div className="hovereffect4">
+                                <a href="assets/img/building.jpg" data-lightbox="photos"><img className="img-fluid imgsize" src={Back3} /></a>
+                                  <div className="overlay">
+                                      <p className="set1">
                                           <a href="www.linkedin.com/in/kevin-mehta-34b96680">
-                                              <i class="fab fa-linkedin"></i>
+                                              <i className="fab fa-linkedin"></i>
                                           </a>
                                           <a href="https://www.facebook.com/kevinmehta137">
-                                              <i class="fab fa-facebook"></i>
+                                              <i className="fab fa-facebook"></i>
                                           </a>
                                       </p>
                                       <hr/>
                                       <hr/>
                                       <hr/>
-                                      <p class="set2">
+                                      <p className="set2">
                                           <a href="https://github.com/kevinmehta137?tab=repositories">
-                                              <i class="fab fa-github"></i>
+                                              <i className="fab fa-github"></i>
                                           </a>
                                           <a href="https://twitter.com/kevinmehta137">
-                                              <i class="fab fa-twitter"></i>
+                                              <i className="fab fa-twitter"></i>
                                           </a>
                                       </p>
                                   </div>

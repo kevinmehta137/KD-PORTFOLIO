@@ -205,7 +205,17 @@ class intro extends React.Component{
                         <h1>Experience</h1>
                     </div>
                     <div className="col-md-8 text-left Arrangediv2">
-                        <h3>•	Manager in Training (Current)<br/>
+                        <h3>•  System Administrator (2019 – Present)<br/>
+                                    Ashunya IT Inc., Orange, California<br/>
+                                    <p>
+                                        
+                                        Responsibilities <br/>
+                                        o    Provide hands-on technical support to users and ensure quick resolution of software and network issues to facilitate smooth workflow. 
+                                             Manage Workstations, Servers, Cloud Base Database, Networks, and Connection base.Installed and configured computer hardware, software, systems, networks, and other equipment.<br/>
+                                    
+                                    </p>
+                                    
+                            •	Manager in Training (Current)<br/>
                                 Fry’s Electronics. Anaheim. CA.<br/>
                                 <p>
                                     

@@ -11,18 +11,22 @@
         background-color: transparent;
         border-color: transparent;
     }
+    .A{
+      color: #e27b12;
+    }
     .navbar-inverse .navbar-nav>li>a{
       background: -webkit-linear-gradient(#e61919cc, #6f13b5);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     }
     .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
       background: -webkit-linear-gradient(#e61919cc, #6f13b5);
-      -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
   .navbaerback{
-    background: #ffffff00;
+    background: transparent;
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 2rem;
   }
   .navbaerback:hover{
     background: #ffffff;
@@ -39,4 +43,7 @@
   
   .Navbar-default.scrolled{
     background:#fbfbfbc4;
+  }
+  .spacing{
+    margin-left: 2rem;
   }

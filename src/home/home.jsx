@@ -10,18 +10,18 @@ class home extends React.Component{
                 <BodyClassName className='containbackground'>
                 <div>
                 <div className="jumbotron-fluid">
-                <div class="container-fluid">
+                <div className="container-fluid">
                     <div className="row contain">
                         <div className="col-md context text-center">
-                            <h1 class="display-4">Welcome To the World of Dreams</h1>
-                            <p class="lead">This Webpage represent the effort for a programer to prove them what they can do for there Dreams.</p>
+                            <h1 className="display-4">Welcome To the World of Dreams</h1>
+                            <p className="lead">This Webpage represent the effort for a programer to prove them what they can do for there Dreams.</p>
                         </div>
                     </div>
                 </div>
                 </div>
 
-                <div class="arrow bounce">
-                     <Link class="S fas fa-angle-down" to="portfolio"> </Link>
+                <div className="arrow bounce">
+                     <Link className="S fas fa-angle-down" to="portfolio"> </Link>
                 </div>
                 </div>
                 </BodyClassName>

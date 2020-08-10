@@ -1,9 +1,8 @@
 import React from 'react';  
-import { Button, Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import {  Navbar, Nav, NavItem } from 'react-bootstrap';
 import "./navbar.css";
-import { NavLink  } from 'react-router-dom';
+import  {NavLink} from 'react-router-dom';
 import $ from 'jquery';
-import Scrollchor from 'react-scrollchor';
 
 class navbar extends React.Component{
 
@@ -13,7 +12,7 @@ class navbar extends React.Component{
        });
         return(
           
-                <Navbar inverse collapseOnSelect fixedTop className=" Navbar-default" >
+                <Navbar inverse collapseOnSelect fixedTop className="Navbar-default"  >
                   <Navbar.Header >
                     <Navbar.Brand>
                       <NavLink id="Logo" to="/" className='logoimg logo'></NavLink>
@@ -22,11 +21,12 @@ class navbar extends React.Component{
                   </Navbar.Header>
                   <Navbar.Collapse>
                     <Nav pullRight > 
-                      <NavItem eventKey={1} className='navbaerback' >
-                        <NavLink id="port" to='/portfolio'>Portfolio</NavLink>
+                      <NavItem eventKey={1} className='navbaerback' componentClass='span' >
+                        <NavLink id="port" to='/portfolio' className="A">Portfolio</NavLink>
                       </NavItem>
-                      <NavItem eventKey={2} className='navbaerback'>
-                        <NavLink to='/aboutus'>Introduction</NavLink>
+                   
+                      <NavItem eventKey={2} className='navbaerback' componentClass='span'>
+                        <NavLink to='/aboutus' className="A">Introduction</NavLink>
                       </NavItem>
                     </Nav>
                   </Navbar.Collapse>
