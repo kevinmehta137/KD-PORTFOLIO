@@ -1,5 +1,6 @@
 {
   "name": "kd-protfolio",
+  "homepage": "http://kevin-dev.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
